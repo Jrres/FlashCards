@@ -37,7 +37,7 @@ function App() {
   return (
     <>
    {!create && !view  ? <aside 
-   style={{ position: 'absolute', width: '200px', right: '0', padding: '80px', background: 'url(./public/cloud.png) center center / contain no-repeat' }}>
+   style={{ position: 'absolute', width: '200px', right: '0', padding: '80px', background: 'url(./cloud.png) center center / contain no-repeat' }}>
   <h3 style={{display:'flex',textAlign:'center',color:'black',fontSize:'10px'}}>
     Flashy is a simple tool to make flash cards. All you have to do is create a set of flash cards that you can edit to your liking. When you're done, download the file and reuse the cards to study with. Enjoy!!! -Jack
   </h3>
@@ -46,7 +46,7 @@ function App() {
     <h1>
       Flashy
       <a href="https://www.flaticon.com/free-icons/sharpie" title="sharpie icons">
-        <img src='./public/art.png' style={{width:'30px',height:'30px'}}></img>
+        <img src='./art.png' style={{width:'30px',height:'30px'}}></img>
       </a>
     </h1>
       {view && data !==null ? (
@@ -74,7 +74,7 @@ function App() {
           </section>
           <section>
             <div 
-              style={{ backgroundImage: 'url(./public/flashcard.jpg)', display: 'flex', alignItems: 'center', justifyContent: 'center' }} 
+              style={{ backgroundImage: 'url(./flashcard.jpg)', display: 'flex', alignItems: 'center', justifyContent: 'center' }} 
               className="flashCard">
               <button 
                 onClick={handleCreate}
