@@ -130,13 +130,13 @@ button:focus-visible {
 }
 
 .flashCard .front::before {
-  background-image: url(./flashcard.jpg); /* Set front background image */
+  background-image: url(../flashcard.jpg); /* Set front background image */
   animation-name: rotateFront; /* Specify animation for front side */
   z-index:-1;
 }
 
 .flashCard .back::before {
-  background-image: url(./flashcard.jpg); /* Set back background image */
+  background-image: url(../flashcard.jpg); /* Set back background image */
   animation-name: rotateBack; /* Specify animation for back side */
   z-index:-1;
 }
